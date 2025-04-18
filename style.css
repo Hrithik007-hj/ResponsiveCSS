@@ -55,14 +55,16 @@ div{
 
 @media all and (max-width: 772px) {
     div{
-       width: 45%;
-       height: 30%;
+       display: inline-block;
+       width: 45vw;
+       max-height: 30vh;
     }
 }
 
 @media all and (max-width: 998px) {
     div{
-        width: 35%;
+        display: inline-block;
+        width: 30vw;
     }
 }
 
